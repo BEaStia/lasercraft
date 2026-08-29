@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["GAG", "RQB", "GGG"],
+  "key": {
+    "A": {"item": "minecraft:amethyst_shard"},
+    "G": {"item": "minecraft:glass"},
+    "R": {"item": "minecraft:red_dye"},
+    "Q": {"item": "minecraft:quartz"},
+    "B": {"item": "minecraft:blue_dye"}
+  },
+  "result": {"item": "lasercraft:laser_combiner"}
+}

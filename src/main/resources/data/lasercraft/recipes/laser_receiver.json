@@ -1,0 +1,6 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "pattern":["IRI","RQR","IRI"],
+  "key":{"I":{"item":"minecraft:iron_ingot"},"R":{"item":"minecraft:redstone"},"Q":{"item":"minecraft:quartz"}},
+  "result":{"item":"lasercraft:laser_receiver"}
+}

@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"lasercraft:block/laser_divider"},"facing=east":{"model":"lasercraft:block/laser_divider","y":90},"facing=south":{"model":"lasercraft:block/laser_divider","y":180},"facing=west":{"model":"lasercraft:block/laser_divider","y":270}}}

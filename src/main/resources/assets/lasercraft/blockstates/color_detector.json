@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north,powered=false":{"model":"lasercraft:block/color_detector"},
+    "facing=east,powered=false":{"model":"lasercraft:block/color_detector","y":90},
+    "facing=south,powered=false":{"model":"lasercraft:block/color_detector","y":180},
+    "facing=west,powered=false":{"model":"lasercraft:block/color_detector","y":270},
+    "facing=up,powered=false":{"model":"lasercraft:block/color_detector","x":270},
+    "facing=down,powered=false":{"model":"lasercraft:block/color_detector","x":90},
+    "facing=north,powered=true":{"model":"lasercraft:block/color_detector_powered"},
+    "facing=east,powered=true":{"model":"lasercraft:block/color_detector_powered","y":90},
+    "facing=south,powered=true":{"model":"lasercraft:block/color_detector_powered","y":180},
+    "facing=west,powered=true":{"model":"lasercraft:block/color_detector_powered","y":270},
+    "facing=up,powered=true":{"model":"lasercraft:block/color_detector_powered","x":270},
+    "facing=down,powered=true":{"model":"lasercraft:block/color_detector_powered","x":90}
+  }
+}

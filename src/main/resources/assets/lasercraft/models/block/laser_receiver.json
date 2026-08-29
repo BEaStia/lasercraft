@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {"particle":"minecraft:block/iron_block","down":"minecraft:block/iron_block","up":"minecraft:block/iron_block","north":"minecraft:block/target_top","south":"minecraft:block/observer_back","east":"minecraft:block/smooth_stone","west":"minecraft:block/smooth_stone"}
+}

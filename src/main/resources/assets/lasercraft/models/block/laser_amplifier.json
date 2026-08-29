@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/cube","textures":{"particle":"minecraft:block/redstone_block","down":"minecraft:block/iron_block","up":"minecraft:block/redstone_block","north":"minecraft:block/respawn_anchor_top","south":"minecraft:block/redstone_block","east":"minecraft:block/redstone_block","west":"minecraft:block/redstone_block"}}

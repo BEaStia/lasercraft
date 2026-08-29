@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "minecraft:block/white_stained_glass",
+    "down": "minecraft:block/amethyst_block",
+    "up": "minecraft:block/white_stained_glass",
+    "north": "minecraft:block/observer_back_on",
+    "south": "minecraft:block/white_stained_glass",
+    "east": "minecraft:block/magenta_stained_glass",
+    "west": "minecraft:block/cyan_stained_glass"
+  }
+}

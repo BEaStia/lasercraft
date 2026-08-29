@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {"particle":"minecraft:block/quartz_block_side","down":"minecraft:block/iron_block","up":"minecraft:block/iron_block","north":"minecraft:block/observer_back_on","south":"minecraft:block/observer_back","east":"minecraft:block/quartz_block_side","west":"minecraft:block/quartz_block_side"}
+}

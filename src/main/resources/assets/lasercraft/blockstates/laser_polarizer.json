@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"lasercraft:block/laser_polarizer"},"facing=east":{"model":"lasercraft:block/laser_polarizer","y":90},"facing=south":{"model":"lasercraft:block/laser_polarizer","y":180},"facing=west":{"model":"lasercraft:block/laser_polarizer","y":270}}}

@@ -1,0 +1,8 @@
+{
+  "variants":{
+    "facing=north":{"model":"lasercraft:block/laser_prism"},
+    "facing=south":{"model":"lasercraft:block/laser_prism","y":180},
+    "facing=west":{"model":"lasercraft:block/laser_prism","y":270},
+    "facing=east":{"model":"lasercraft:block/laser_prism","y":90}
+  }
+}

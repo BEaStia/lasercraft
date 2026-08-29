@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"lasercraft:block/range_lens"},"facing=east":{"model":"lasercraft:block/range_lens","y":90},"facing=south":{"model":"lasercraft:block/range_lens","y":180},"facing=west":{"model":"lasercraft:block/range_lens","y":270}}}

@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "facing=north,powered=false": {"model": "lasercraft:block/laser_combiner"},
+    "facing=east,powered=false": {"model": "lasercraft:block/laser_combiner", "y": 90},
+    "facing=south,powered=false": {"model": "lasercraft:block/laser_combiner", "y": 180},
+    "facing=west,powered=false": {"model": "lasercraft:block/laser_combiner", "y": 270},
+    "facing=north,powered=true": {"model": "lasercraft:block/laser_combiner_powered"},
+    "facing=east,powered=true": {"model": "lasercraft:block/laser_combiner_powered", "y": 90},
+    "facing=south,powered=true": {"model": "lasercraft:block/laser_combiner_powered", "y": 180},
+    "facing=west,powered=true": {"model": "lasercraft:block/laser_combiner_powered", "y": 270}
+  }
+}

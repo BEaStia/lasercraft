@@ -1,0 +1,6 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "pattern":["IGI","GQG","IGI"],
+  "key":{"I":{"item":"minecraft:iron_ingot"},"G":{"item":"minecraft:glass_pane"},"Q":{"item":"minecraft:quartz"}},
+  "result":{"item":"lasercraft:laser_mirror"}
+}

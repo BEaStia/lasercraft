@@ -1,0 +1,6 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "pattern":["AGA","GQG","AGA"],
+  "key":{"A":{"item":"minecraft:amethyst_shard"},"G":{"item":"minecraft:glass"},"Q":{"item":"minecraft:quartz"}},
+  "result":{"item":"lasercraft:laser_prism"}
+}

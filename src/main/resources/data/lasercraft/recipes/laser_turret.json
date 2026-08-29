@@ -1,0 +1,11 @@
+{
+  "type":"minecraft:crafting_shaped",
+  "pattern":["IRI","RER","ICI"],
+  "key":{
+    "I":{"item":"minecraft:iron_ingot"},
+    "R":{"item":"minecraft:redstone"},
+    "E":{"item":"lasercraft:laser_emitter"},
+    "C":{"item":"minecraft:comparator"}
+  },
+  "result":{"item":"lasercraft:laser_turret"}
+}

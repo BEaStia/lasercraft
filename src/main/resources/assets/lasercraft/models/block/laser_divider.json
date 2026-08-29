@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/cube","textures":{"particle":"minecraft:block/redstone_lamp","down":"minecraft:block/iron_block","up":"minecraft:block/redstone_lamp","north":"minecraft:block/target_top","south":"minecraft:block/redstone_lamp","east":"minecraft:block/redstone_lamp","west":"minecraft:block/redstone_lamp"}}

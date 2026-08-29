@@ -1,0 +1,1 @@
+{"parent":"minecraft:block/cube","textures":{"particle":"minecraft:block/purple_stained_glass","down":"minecraft:block/iron_block","up":"minecraft:block/purple_stained_glass","north":"minecraft:block/beacon","south":"minecraft:block/purple_stained_glass","east":"minecraft:block/purple_stained_glass","west":"minecraft:block/purple_stained_glass"}}
