@@ -2,6 +2,7 @@ package dev.lasercraft.registry;
 
 import dev.lasercraft.LaserCraft;
 import dev.lasercraft.world.block.LaserEmitterBlock;
+import dev.lasercraft.world.block.ColorCrystalBlock;
 import dev.lasercraft.world.block.ColorDetectorBlock;
 import dev.lasercraft.world.block.LaserCombinerBlock;
 import dev.lasercraft.world.block.LaserMirrorBlock;
@@ -42,6 +43,8 @@ public final class ModBlocks {
             () -> new LaserPrismBlock(machineProperties().noOcclusion()));
     public static final RegistryObject<Block> COLOR_DETECTOR = BLOCKS.register("color_detector",
             () -> new ColorDetectorBlock(machineProperties()));
+    public static final RegistryObject<Block> COLOR_CRYSTAL = BLOCKS.register("color_crystal",
+            () -> new ColorCrystalBlock(machineProperties().noOcclusion()));
 
     private static BlockBehaviour.Properties machineProperties() {
         return BlockBehaviour.Properties.of().mapColor(MapColor.METAL).strength(3.5F).requiresCorrectToolForDrops();

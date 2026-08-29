@@ -34,6 +34,8 @@ public final class ModItems {
             () -> item(ModBlocks.RANGE_LENS.get(), "range_lens"));
     public static final RegistryObject<Item> COLOR_DETECTOR = ITEMS.register("color_detector",
             () -> item(ModBlocks.COLOR_DETECTOR.get(), "color_detector"));
+    public static final RegistryObject<Item> COLOR_CRYSTAL = ITEMS.register("color_crystal",
+            () -> item(ModBlocks.COLOR_CRYSTAL.get(), "color_crystal"));
 
     private static LaserBlockItem item(net.minecraft.world.level.block.Block block, String id) {
         return new LaserBlockItem(block, new Item.Properties(), id);

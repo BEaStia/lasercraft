@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "color=white": {"model": "lasercraft:block/color_crystal"},
+    "color=orange": {"model": "lasercraft:block/color_crystal"},
+    "color=magenta": {"model": "lasercraft:block/color_crystal"},
+    "color=light_blue": {"model": "lasercraft:block/color_crystal"},
+    "color=yellow": {"model": "lasercraft:block/color_crystal"},
+    "color=lime": {"model": "lasercraft:block/color_crystal"},
+    "color=pink": {"model": "lasercraft:block/color_crystal"},
+    "color=gray": {"model": "lasercraft:block/color_crystal"},
+    "color=light_gray": {"model": "lasercraft:block/color_crystal"},
+    "color=cyan": {"model": "lasercraft:block/color_crystal"},
+    "color=purple": {"model": "lasercraft:block/color_crystal"},
+    "color=blue": {"model": "lasercraft:block/color_crystal"},
+    "color=brown": {"model": "lasercraft:block/color_crystal"},
+    "color=green": {"model": "lasercraft:block/color_crystal"},
+    "color=red": {"model": "lasercraft:block/color_crystal"},
+    "color=black": {"model": "lasercraft:block/color_crystal"}
+  }
+}

@@ -1,6 +1,6 @@
 # LaserCraft
 
-LaserCraft 0.4.1 is a Forge mod for Minecraft Java Edition 1.20.1.
+LaserCraft 0.5.0 is a Forge mod for Minecraft Java Edition 1.20.1.
 
 ## Requirements
 
@@ -22,8 +22,9 @@ LaserCraft 0.4.1 is a Forge mod for Minecraft Java Edition 1.20.1.
 - **Focusing Lens** increases strength but halves the remaining range.
 - **Range Lens** adds 32 blocks to the remaining range.
 - **Color Detector** emits redstone only for its selected dye color.
+- **Color Crystal** recasts any passing beam to its dyed color and continues in the same direction. Crafted crystals start white. See [docs/color-crystal.md](docs/color-crystal.md).
 
-Use any vanilla dye on an emitter to change its laser color. Colors have distinct combat and utility effects.
+Use any vanilla dye on an emitter, turret, detector, or color crystal to change its laser color. Colors have distinct combat and utility effects.
 Use a clock on an emitter to switch between continuous and pulsed operation.
 
 Hot colors melt ice and ignite TNT. Blue colors extinguish fire and freeze lava into obsidian.
@@ -37,4 +38,4 @@ The beam stops at solid blocks and receivers. Living entities intersecting it ta
 ./gradlew build
 ```
 
-The distributable mod is created at `build/libs/lasercraft-0.4.1.jar`.
+The distributable mod is created at `build/libs/lasercraft-0.5.0.jar`.

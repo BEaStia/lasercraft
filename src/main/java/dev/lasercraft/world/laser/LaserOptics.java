@@ -2,6 +2,7 @@ package dev.lasercraft.world.laser;
 
 import dev.lasercraft.config.ServerConfig;
 import dev.lasercraft.registry.ModBlocks;
+import dev.lasercraft.world.block.ColorCrystalBlock;
 import dev.lasercraft.world.block.LaserMirrorBlock;
 import dev.lasercraft.world.block.LaserPrismBlock;
 import net.minecraft.core.Direction;
@@ -61,7 +62,10 @@ public final class LaserOptics {
                         int extendedRange = Math.min(ServerConfig.MAX_RANGE.get(), range + 32);
                         return List.of(new BeamBranch(state.getValue(LaserPrismBlock.FACING),
                                 beam.extend(range, 32, ServerConfig.MAX_RANGE.get()).branch(extendedRange)));
-                    })
+                    }),
+            component(state -> state.getBlock() instanceof ColorCrystalBlock,
+                    (state, incoming, beam, range) -> List.of(ColorCrystalOptics.recast(
+                            incoming, beam, ColorCrystalBlock.laserType(state), range)))
     );
 
     public static Optional<List<BeamBranch>> transform(BlockState state, Direction incomingDirection,
