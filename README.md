@@ -1,6 +1,6 @@
 # LaserCraft
 
-LaserCraft 0.5.1 is a Forge mod for Minecraft Java Edition 1.20.1.
+LaserCraft 0.5.2 is a Forge mod for Minecraft Java Edition 1.20.1.
 
 ## Requirements
 
@@ -38,4 +38,4 @@ The beam stops at solid blocks and receivers. Living entities intersecting it ta
 ./gradlew build
 ```
 
-The distributable mod is created at `build/libs/lasercraft-0.5.1.jar`.
+The distributable mod is created at `build/libs/lasercraft-0.5.2.jar`.
