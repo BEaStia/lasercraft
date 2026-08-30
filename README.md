@@ -15,7 +15,7 @@ LaserCraft 0.5.0 is a Forge mod for Minecraft Java Edition 1.20.1.
 - **Laser Receiver** accepts a beam through its marked front face and outputs redstone power level 15.
 - **Splitting Prism** splits any incoming beam into red, green, and blue branches pointing forward, left, and right.
 - **Combining Prism** mixes any two or more simultaneous colors arriving from different sides. It emits the nearest of the 16 laser colors through its marked output face, so the mixed beam also receives that color's effect.
-- **Laser Turret** automatically attacks the nearest visible hostile mob within 32 blocks, including diagonal targets. Use a dye to select its color.
+- **Laser Turret** needs no redstone. It automatically attacks the nearest visible hostile mob within 32 blocks, including diagonal targets. Use a dye to select its color. Players and animals are ignored. See [docs/laser-turret.md](docs/laser-turret.md).
 - **Beam Divider** creates two copies of the incoming color.
 - **Laser Amplifier** increases damage and status-effect strength, up to three levels.
 - **Polarizer** only passes a beam travelling in its marked direction.

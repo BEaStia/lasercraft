@@ -5,6 +5,7 @@ import dev.lasercraft.config.ServerConfig;
 import dev.lasercraft.world.block.LaserTurretBlock;
 import dev.lasercraft.world.laser.LaserPath;
 import dev.lasercraft.world.laser.LaserType;
+import dev.lasercraft.world.laser.TurretTargeting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;
@@ -76,7 +77,9 @@ public final class LaserTurretBlockEntity extends BlockEntity {
         if (level == null) {
             return false;
         }
-        HitResult hit = level.clip(new ClipContext(start, target.getEyePosition(),
+        Vec3 end = target.getEyePosition();
+        Vec3 clipStart = TurretTargeting.sightStart(start, end);
+        HitResult hit = level.clip(new ClipContext(clipStart, end,
                 ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, target));
         return hit.getType() == HitResult.Type.MISS;
     }
