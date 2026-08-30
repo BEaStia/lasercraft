@@ -19,7 +19,7 @@
   "tooltip.lasercraft.laser_mirror": "Redirects a beam toward its marked output.",
   "tooltip.lasercraft.laser_prism": "Splits a beam into red, green, and blue.",
   "tooltip.lasercraft.laser_combiner": "Mixes two or more colors arriving from different sides.",
-  "tooltip.lasercraft.laser_turret": "Attacks the nearest visible monster; use dye to set its color.",
+  "tooltip.lasercraft.laser_turret": "No redstone. Auto-fires at the nearest visible hostile mob; dye sets color.",
   "tooltip.lasercraft.laser_divider": "Creates two copies of the incoming beam.",
   "tooltip.lasercraft.laser_amplifier": "Raises beam strength up to the server limit.",
   "tooltip.lasercraft.laser_polarizer": "Only passes beams travelling in its marked direction.",
