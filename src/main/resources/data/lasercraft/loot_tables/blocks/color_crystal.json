@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "lasercraft:color_crystal",
+          "functions": [
+            {
+              "function": "minecraft:copy_state",
+              "block": "lasercraft:color_crystal",
+              "properties": ["color"]
+            }
+          ]
+        }
+      ],
+      "conditions": [{"condition": "minecraft:survives_explosion"}]
+    }
+  ]
+}

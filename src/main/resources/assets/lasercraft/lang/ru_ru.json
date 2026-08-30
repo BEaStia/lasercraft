@@ -13,6 +13,7 @@
   "message.lasercraft.pulse_on": "Импульсный режим включён",
   "message.lasercraft.pulse_off": "Непрерывный режим включён",
   "block.lasercraft.color_detector": "Цветовой датчик",
+  "block.lasercraft.color_crystal": "Цветовой кристалл",
   "tooltip.lasercraft.laser_emitter": "Краситель меняет цвет; часы переключают импульсный режим.",
   "tooltip.lasercraft.laser_receiver": "Выдаёт редстоун при попадании луча в отмеченную грань.",
   "tooltip.lasercraft.laser_mirror": "Поворачивает луч к отмеченному выходу.",
@@ -24,5 +25,6 @@
   "tooltip.lasercraft.laser_polarizer": "Пропускает луч только в отмеченном направлении.",
   "tooltip.lasercraft.focusing_lens": "Усиливает луч, сокращая оставшуюся дальность вдвое.",
   "tooltip.lasercraft.range_lens": "Увеличивает оставшуюся дальность на 32 блока.",
-  "tooltip.lasercraft.color_detector": "Краситель выбирает цвет, на который датчик выдаёт редстоун."
+  "tooltip.lasercraft.color_detector": "Краситель выбирает цвет, на который датчик выдаёт редстоун.",
+  "tooltip.lasercraft.color_crystal": "Покрасьте красителем — любой луч, прошедший сквозь кристалл, станет этого цвета."
 }

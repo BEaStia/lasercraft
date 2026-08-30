@@ -39,6 +39,7 @@ public final class LaserCraft {
             event.accept(ModItems.FOCUSING_LENS);
             event.accept(ModItems.RANGE_LENS);
             event.accept(ModItems.COLOR_DETECTOR);
+            event.accept(ModItems.COLOR_CRYSTAL);
         }
     }
 }

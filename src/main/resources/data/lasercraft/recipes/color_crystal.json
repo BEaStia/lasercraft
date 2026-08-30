@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [" A ", "GAG", " A "],
+  "key": {
+    "A": {"item": "minecraft:amethyst_shard"},
+    "G": {"item": "minecraft:glass"}
+  },
+  "result": {"item": "lasercraft:color_crystal"}
+}

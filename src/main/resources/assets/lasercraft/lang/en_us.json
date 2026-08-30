@@ -13,6 +13,7 @@
   "message.lasercraft.pulse_on": "Pulse mode enabled",
   "message.lasercraft.pulse_off": "Continuous mode enabled",
   "block.lasercraft.color_detector": "Color Detector",
+  "block.lasercraft.color_crystal": "Color Crystal",
   "tooltip.lasercraft.laser_emitter": "Dye changes color; a clock toggles pulse mode.",
   "tooltip.lasercraft.laser_receiver": "Outputs redstone when a beam hits its marked face.",
   "tooltip.lasercraft.laser_mirror": "Redirects a beam toward its marked output.",
@@ -24,5 +25,6 @@
   "tooltip.lasercraft.laser_polarizer": "Only passes beams travelling in its marked direction.",
   "tooltip.lasercraft.focusing_lens": "Raises strength while halving remaining range.",
   "tooltip.lasercraft.range_lens": "Adds 32 blocks to the remaining range.",
-  "tooltip.lasercraft.color_detector": "Use dye to select the color that produces redstone."
+  "tooltip.lasercraft.color_detector": "Use dye to select the color that produces redstone.",
+  "tooltip.lasercraft.color_crystal": "Dye it, then any beam passing through becomes that color."
 }
