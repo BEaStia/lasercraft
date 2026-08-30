@@ -1,6 +1,7 @@
 package dev.lasercraft;
 
 import dev.lasercraft.config.ServerConfig;
+import dev.lasercraft.registry.CreativeTabPopulator;
 import dev.lasercraft.registry.ModBlockEntities;
 import dev.lasercraft.registry.ModBlocks;
 import dev.lasercraft.registry.ModItems;
@@ -26,20 +27,22 @@ public final class LaserCraft {
     }
 
     private void addCreativeTabItems(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
-            event.accept(ModItems.LASER_EMITTER);
-            event.accept(ModItems.LASER_RECEIVER);
-            event.accept(ModItems.LASER_MIRROR);
-            event.accept(ModItems.LASER_PRISM);
-            event.accept(ModItems.LASER_COMBINER);
-            event.accept(ModItems.LASER_TURRET);
-            event.accept(ModItems.LASER_DIVIDER);
-            event.accept(ModItems.LASER_AMPLIFIER);
-            event.accept(ModItems.LASER_POLARIZER);
-            event.accept(ModItems.FOCUSING_LENS);
-            event.accept(ModItems.RANGE_LENS);
-            event.accept(ModItems.COLOR_DETECTOR);
-            event.accept(ModItems.COLOR_CRYSTAL);
+        if (event.getTabKey() != CreativeModeTabs.REDSTONE_BLOCKS) {
+            return;
         }
+        CreativeTabPopulator.acceptAll(event,
+                ModItems.LASER_EMITTER,
+                ModItems.LASER_RECEIVER,
+                ModItems.LASER_MIRROR,
+                ModItems.LASER_PRISM,
+                ModItems.LASER_COMBINER,
+                ModItems.LASER_TURRET,
+                ModItems.LASER_DIVIDER,
+                ModItems.LASER_AMPLIFIER,
+                ModItems.LASER_POLARIZER,
+                ModItems.FOCUSING_LENS,
+                ModItems.RANGE_LENS,
+                ModItems.COLOR_DETECTOR,
+                ModItems.COLOR_CRYSTAL);
     }
 }
